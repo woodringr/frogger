@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Royal Run</title>
+
+    <link href="css/style.css" rel="stylesheet" >
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+
+    <link  href="http://fonts.googleapis.com/css?family=Oswald:regular" rel="stylesheet" type="text/css" >
+
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+
+
+</head>
+<body id="game">
+
+    <!-- Modal -->
+    <div class="modal fade" id="gameStartModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h2 class="modal-title" id="myModalLabel">Royal Run</h2>
+                </div>
+                <div class="modal-body">
+
+                    <h4>Reach the water to level up</h4>
+                    <h4>Reach the Royal to earn a Golden Key</h4>
+                    <h4>Earn 3 keys to free the Royal fron the evil Lady Bug</h4>
+
+                </div>
+                <div class="modal-footer center-block">
+                    <form role="form">
+                        <div class="btn-group" id="BoyOrGirl" data-toggle="buttons">
+                            <label class="radio-inline"><input type="radio" name="optradio" value="b" active checked>I am a Prince</label>
+                            <label class="radio-inline"><input type="radio" name="optradio" value="g">I am a Princess</label>
+                            <label class="btn-inline"><button id="startBtn" type="button" class="btn btn-default" data-dismiss="modal">START GAME</button></label>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/libs/jquery-1.11.3.min.js"></script>
+    <script src="js/libs/bootstrap.min.js"></script>
+    <script src="js/shims.js"></script>
+    <script src="js/constants.js"></script>
+    <script src="js/mobs.js"></script>
+    <script src="js/frontend.js"></script>
+    <script src="js/resources.js"></script>
+    <script src="js/engine.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/GameWonHomage.js"></script>
+
+</body>
+</html>
